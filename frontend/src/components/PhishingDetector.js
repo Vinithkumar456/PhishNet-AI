@@ -1,3 +1,5 @@
+
+
 import React, { useState } from "react";
 import "./PhishingDetector.css";
 
@@ -103,4 +105,5 @@ export default function PhishingDetector() {
       </div>
     </div>
   );
+
 }

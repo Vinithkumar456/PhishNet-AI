@@ -1,3 +1,4 @@
+
 const axios = require('axios');
 
 exports.getPhishingPrediction = async (url) => {
@@ -15,3 +16,4 @@ exports.getPhishingPrediction = async (url) => {
         throw new Error("Flask API call failed");
     }
 };
+

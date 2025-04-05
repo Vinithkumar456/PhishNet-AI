@@ -1,3 +1,5 @@
+
+
 const { getPhishingPrediction } = require('../services/modelService');
 
 exports.predictPhishing = async (req, res) => {
@@ -20,3 +22,4 @@ exports.predictPhishing = async (req, res) => {
         res.status(500).json({ error: 'Server Error', details: error.message });
     }
 };
+
